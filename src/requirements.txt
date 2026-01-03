@@ -1,0 +1,10 @@
+transformers>=4.35.0
+streamlit
+markdown
+pdfkit
+pandas
+stqdm
+torch
+altair<5
+weasyprint
+gradio>=4.0.0
