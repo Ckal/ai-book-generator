@@ -1,0 +1,18 @@
+name: ai-book-generator
+type: gradio-space
+sdk: streamlit
+
+metadata:
+  space_id: Chris4K/ai-book-generator
+  original_url: https://huggingface.co/spaces/Chris4K/ai-book-generator
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
